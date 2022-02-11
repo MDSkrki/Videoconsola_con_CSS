@@ -1,0 +1,13 @@
+/*
+Making borders for all Divs temporally in order to visualise them for the main structure.
+This should disappear when finishing this feature.
+*/
+
+div {
+    border: 0.2em solid grey;
+}
+
+main {
+    width: 1000px;
+}
+
