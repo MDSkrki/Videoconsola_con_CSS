@@ -4,5 +4,10 @@ This should disappear when finishing this feature.
 */
 
 div {
-    border: 1em solid grey;
+    border: 0.2em solid grey;
 }
+
+main {
+    width: 1000px;
+}
+
