@@ -93,7 +93,7 @@ h1 {
 }
 
 .arrow {
-    height: 0.6em;
+    height: 0.4em;
     width: 2em;
     background-color: white;
 }
@@ -112,4 +112,18 @@ h1 {
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.powerButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.powerButton img {
+    object-fit: contain;
+    max-height: 1em;
+    max-width: 1em;
+    border: 0.15em solid grey;
+    border-radius: 1em;
 }
