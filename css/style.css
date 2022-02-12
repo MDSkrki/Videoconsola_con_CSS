@@ -39,10 +39,10 @@ main {
 
 .hole {
     border-radius: 1em;
-    width: 0.7em;
-    height: 0.7em;
+    width: 0.5em;
+    height: 0.5em;
     background-color: black;
-    margin: 0.1em;
+    margin: 0.3em;
 }
 
 .screen {
