@@ -34,6 +34,7 @@ main {
 .middle {
     height: 10%;
     justify-content: center;
+    align-items: center;
 }
 
 .hole {
@@ -45,7 +46,7 @@ main {
 
 .screen {
     background-color: black;
-    height: 25em;
+    height: 20em;
     width: 25em;
 }
 
@@ -53,4 +54,26 @@ main {
     width: 5em;
     flex-direction: column;
     align-items: center;
+}
+
+.innerLens {
+    position: relative;
+    bottom: -35%;
+    margin: auto;
+    background-color: rgb(104, 103, 103);
+    border-radius: 1em;
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.outerLens {
+    background-color: black;
+    z-index: 0;
+    border-radius: 2em;
+    width: 3em;
+    height: 3em;
+}
+
+.camera {
+    margin-right: 1em;
 }
