@@ -89,22 +89,27 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: space-between;
+}
+
+.arrow {
+    height: 0.6em;
+    width: 2em;
+    background-color: white;
 }
 
 .upArrow {
     margin-top: 1em;
-    width: 2em;
-    text-align: center;
+    transform: rotate(90deg);
 }
 
 .downArrow {
     margin-bottom: 1em;
-    width: 2em;
-    text-align: center;
+    transform: rotate(90deg);
 }
 
 .leftRightArrows {
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
