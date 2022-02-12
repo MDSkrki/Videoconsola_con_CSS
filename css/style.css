@@ -11,6 +11,10 @@ main {
     width: 1000px;
 }
 
+h1 {
+    display: inline;
+}
+
 .nintendo {
     background-color: rgb(160, 95, 95);
     width: 100%;
@@ -18,7 +22,7 @@ main {
     border-radius: 3em;
 }
 
-.top, .middle, .bottom, .speaker, .topHoles, .midHoles, .bottomHoles {
+.top, .middle, .bottom, .speaker, .topHoles, .midHoles, .bottomHoles, .arrows {
     display: flex;
 }
 
@@ -63,8 +67,8 @@ main {
     margin: auto;
     background-color: rgb(104, 103, 103);
     border-radius: 1em;
-    width: 0.5em;
-    height: 0.5em;
+    width: 0.6em;
+    height: 0.6em;
 }
 
 .outerLens {
@@ -77,4 +81,30 @@ main {
 
 .camera {
     margin-right: 1em;
+}
+
+.arrows {
+    height: 7em;
+    width: 7em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upArrow {
+    margin-top: 1em;
+    width: 2em;
+    text-align: center;
+}
+
+.downArrow {
+    margin-bottom: 1em;
+    width: 2em;
+    text-align: center;
+}
+
+.leftRightArrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
