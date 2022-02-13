@@ -3,9 +3,6 @@ Making borders for all Divs temporally in order to visualise them for the main s
 This should disappear when finishing this feature.
 */
 
-div {
-    border: 0.2em solid grey;
-}
 
 main {
     width: 1000px;
@@ -51,8 +48,8 @@ p {
 
 .screen {
     background-color: black;
-    height: 20em;
-    width: 25em;
+    height: 23em;
+    width: 30em;
 }
 
 .speaker {
@@ -62,13 +59,10 @@ p {
 }
 
 .innerLens {
-    position: relative;
-    bottom: -35%;
-    margin: auto;
     background-color: rgb(104, 103, 103);
     border-radius: 1em;
-    width: 0.6em;
-    height: 0.6em;
+    width: 0.8em;
+    height: 0.8em;
 }
 
 .outerLens {
@@ -77,6 +71,9 @@ p {
     border-radius: 2em;
     width: 3em;
     height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .camera {
@@ -146,6 +143,7 @@ p {
     align-items: center;
     height: 1.5em;
     width: 1.5em;
+    border: 0.15em solid grey;
     border-radius: 1em;
 }
 
