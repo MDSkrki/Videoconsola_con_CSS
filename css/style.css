@@ -34,6 +34,7 @@ p {
 
 .middle {
     height: 10%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -74,10 +75,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 1em;
 }
 
 .camera {
-    margin-right: 1em;
+    display: flex;
+    align-items: center;
 }
 
 .arrows, .actionButtons {
@@ -162,4 +165,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.topBorder, .bottomBorder {
+    border: 0.1em solid black;
+    width: 99%;
+    justify-content: space-between;
 }
