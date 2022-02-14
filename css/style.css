@@ -172,3 +172,12 @@ p {
     width: 99%;
     justify-content: space-between;
 }
+
+.screen {
+    padding: 1em;
+}
+
+img {
+   height: 100%;
+   width: 100%;
+}
